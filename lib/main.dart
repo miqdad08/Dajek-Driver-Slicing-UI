@@ -1,4 +1,4 @@
-import 'package:dajek_driver/splash_screen.dart';
+import 'package:dajek_driver/ui/splash/splash_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
