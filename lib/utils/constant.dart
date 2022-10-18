@@ -37,10 +37,10 @@ TextStyle textSignUp = GoogleFonts.poppins(
     fontWeight: FontWeight.w600
 );
 
-TextStyle textName = GoogleFonts.poppins(
+TextStyle textStart = GoogleFonts.poppins(
     color: Colors.black,
     fontSize: 16,
-    fontWeight: FontWeight.w600
+    fontWeight: FontWeight.w500
 );
 
 TextStyle textDate = GoogleFonts.poppins(
@@ -51,13 +51,20 @@ TextStyle textDate = GoogleFonts.poppins(
 
 
 TextStyle textMyBalance = GoogleFonts.poppins(
-    color: Colors.white,
-    fontSize: 12,
-    fontWeight: FontWeight.w400
+    color: Colors.grey,
+    fontSize: 14,
+    fontWeight: FontWeight.w500
 );
 
-TextStyle featuresText = GoogleFonts.poppins(
+TextStyle incomeTextActive = GoogleFonts.poppins(
     color: Colors.black,
+    fontSize: 14,
+    fontWeight: FontWeight.w500
+);
+
+
+TextStyle incomeTextUnActive = GoogleFonts.poppins(
+    color: Colors.grey,
     fontSize: 14,
     fontWeight: FontWeight.w500
 );
@@ -76,15 +83,15 @@ TextStyle myLocText = GoogleFonts.poppins(
 
 
 TextStyle locationText = GoogleFonts.roboto(
-    color: Colors.black,
-    fontSize: 15,
-    fontWeight: FontWeight.w800
+    color: Colors.grey,
+    fontSize: 12,
+    fontWeight: FontWeight.w500
 );
 
 TextStyle foodNameText = GoogleFonts.roboto(
     color: Colors.black,
     fontSize: 14,
-    fontWeight: FontWeight.w400
+    fontWeight: FontWeight.w500
 );
 
 TextStyle foodPriceListText = GoogleFonts.roboto(
@@ -99,62 +106,77 @@ TextStyle foodPriceText = GoogleFonts.roboto(
     fontWeight: FontWeight.w500
 );
 
-TextStyle priceCheckoutText = GoogleFonts.roboto(
+TextStyle timeText = GoogleFonts.poppins(
+    color: grey1,
+    fontSize: 10,
+    fontWeight: FontWeight.w500
+);
+
+
+TextStyle timeTextDetail = GoogleFonts.poppins(
     color: grey1,
     fontSize: 14,
-    fontWeight: FontWeight.w700
-);
-
-TextStyle foodRatingText = GoogleFonts.roboto(
-    color: Colors.black,
-    fontSize: 12,
     fontWeight: FontWeight.w500
 );
 
-TextStyle screenInfoText = GoogleFonts.roboto(
-    color: grey1,
-    fontSize: 16,
-    fontWeight: FontWeight.w500
-);
-
-TextStyle hintSearchBarText = GoogleFonts.roboto(
+TextStyle tripText = GoogleFonts.roboto(
     color: Colors.grey,
-    fontSize: 15,
+    fontSize: 12,
     fontWeight: FontWeight.w400
 );
 
-TextStyle headDescriptionText = GoogleFonts.roboto(
-    color: Colors.grey,
-    fontSize: 14,
-    fontWeight: FontWeight.w600
-);
-
-TextStyle descriptionBarText = GoogleFonts.roboto(
-    color: darkGrey1,
-    fontSize: 14,
-    fontWeight: FontWeight.w500
-);
-
-TextStyle headPaymentText = GoogleFonts.roboto(
-    color: Colors.black,
-    fontSize: 16,
-    fontWeight: FontWeight.w600
-);
-
-TextStyle headBottomSheetText = GoogleFonts.poppins(
-    color: Colors.black,
-    fontSize: 18,
-    fontWeight: FontWeight.w600
-);
-
-TextStyle subBottomSheeetText = GoogleFonts.roboto(
-    color: grey1,
+TextStyle completeText = GoogleFonts.poppins(
+    color: Colors.green,
     fontSize: 12,
     fontWeight: FontWeight.w500
 );
 
-TextStyle subBottomSheeetText2 = GoogleFonts.poppins(
-    color: grey1,
+TextStyle completeTextDetail = GoogleFonts.poppins(
+    color: Colors.green,
+    fontSize: 16,
+    fontWeight: FontWeight.w500
+);
+
+
+TextStyle totalPriceText = GoogleFonts.poppins(
+    color: Colors.grey,
+    fontSize: 16,
+    fontWeight: FontWeight.w500
+);
+
+
+TextStyle profilNameText = GoogleFonts.roboto(
+    color: darkGrey1,
+    fontSize: 16,
+    fontWeight: FontWeight.w500
+);
+
+
+TextStyle vehicleLicense = GoogleFonts.roboto(
+    color: Colors.grey,
+    fontSize: 13,
+    fontWeight: FontWeight.w500
+);
+
+
+
+TextStyle failedTextDetail = GoogleFonts.poppins(
+    color: red1,
+    fontSize: 16,
+    fontWeight: FontWeight.w500
+);
+
+
+TextStyle failedText = GoogleFonts.poppins(
+    color: red1,
+    fontSize: 12,
+    fontWeight: FontWeight.w500
+);
+
+
+
+TextStyle profilText = GoogleFonts.roboto(
+    color: darkGrey1,
     fontSize: 14,
     fontWeight: FontWeight.w500
 );
