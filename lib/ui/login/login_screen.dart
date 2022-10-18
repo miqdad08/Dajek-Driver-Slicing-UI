@@ -1,4 +1,4 @@
-import 'package:dajek_driver/home_screen.dart';
+import 'package:dajek_driver/ui/main/main_screen.dart';
 import 'package:dajek_driver/ui/sign_up/signup_screen.dart';
 import 'package:dajek_driver/utils/constant.dart';
 import 'package:flutter/material.dart';
@@ -87,7 +87,7 @@ class _LoginScreenState extends State<LoginScreen> {
               ///Button Login
               InkWell(
                 onTap: () {
-                  Navigator.push(context, MaterialPageRoute(builder: (context)=> HomeScreen()));
+                  Navigator.push(context, MaterialPageRoute(builder: (context)=> MainScreen()));
                 },
                 child: Container(
                   width: double.infinity,
